@@ -11,19 +11,31 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.rememberNavController
+import com.example.task.presentation.navigation.AppScreens
+import com.example.task.presentation.navigation.appRoute
 import com.example.task.ui.theme.TaskTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
             TaskTheme {
+                val navController = rememberNavController()
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+
+                    NavHost(
+                        navController = navController,
+                        startDestination = AppScreens.HomeScreen,
                         modifier = Modifier.padding(innerPadding)
-                    )
+
+                    ) {
+                        appRoute(this)
+                    }
                 }
             }
         }
