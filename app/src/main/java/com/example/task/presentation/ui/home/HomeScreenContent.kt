@@ -69,7 +69,7 @@ fun HomeScreenContent(
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color(0xFFEEEEEE))
+            .background(Color(0xfff5f0f5))
             .pointerInput(Unit) {
                 detectTapGestures(onTap = { context.hideKeyboard() })
             }

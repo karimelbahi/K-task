@@ -235,24 +235,39 @@ fun SearchField(
         onValueChange = { newValue ->
             onValueChange(newValue)
         },
-        placeholder = { Text(stringResource(R.string.searching)) },
+        placeholder = {
+            Text(
+                stringResource(R.string.searching),
+                color = Color(0xFFb3b3b3)
+            )
+        },
         modifier = Modifier
             .fillMaxWidth()
-            .padding(horizontal = 16.dp, vertical = 12.dp)
-            .background(Color(0xFFEEEEEE), shape = RoundedCornerShape(16.dp))
+            .padding(horizontal = 16.dp, vertical = 2.dp)
+            .background(Color(0xFFebebeb), shape = RoundedCornerShape(16.dp))
             .clip(RoundedCornerShape(16.dp)),
         singleLine = true,
         leadingIcon = {
-            Icon(Icons.Default.Search, contentDescription = "Search")
+            Icon(
+                Icons.Default.Search,
+                contentDescription = "Search",
+                tint = Color(0xFFb3b3b3),
+                modifier = Modifier.padding(4.dp)
+            )
         },
         textStyle = TextStyle(
-            fontSize = 8.sp,
-            lineHeight = 8.sp
+            fontSize = 12.sp,
+            lineHeight = 12.sp
         ),
+
         colors = TextFieldDefaults.colors(
+
             focusedIndicatorColor = Color.Transparent,
             unfocusedIndicatorColor = Color.Transparent,
-            disabledIndicatorColor = Color.Transparent
+            disabledIndicatorColor = Color.Transparent,
+            focusedContainerColor = Color(0xFFEEEEEE),
+            unfocusedContainerColor = Color(0xFFEEEEEE),
+            disabledContainerColor = Color(0xFFEEEEEE)
         )
     )
 }
