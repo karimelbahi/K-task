@@ -243,7 +243,7 @@ fun SearchField(
         },
         modifier = Modifier
             .fillMaxWidth()
-            .padding(horizontal = 16.dp, vertical = 2.dp)
+            .padding(horizontal = 16.dp, vertical = 16.dp)
             .background(Color(0xFFebebeb), shape = RoundedCornerShape(16.dp))
             .clip(RoundedCornerShape(16.dp)),
         singleLine = true,
@@ -261,7 +261,6 @@ fun SearchField(
         ),
 
         colors = TextFieldDefaults.colors(
-
             focusedIndicatorColor = Color.Transparent,
             unfocusedIndicatorColor = Color.Transparent,
             disabledIndicatorColor = Color.Transparent,
