@@ -60,11 +60,10 @@ Develop an Android app to search through **200,000+ cities** with optimized pref
 * Kotlin Flow
 * StateFlow
 * unit testing
-* UI testing
 
 ## Bonus
 
-* UI testing
+* unit testing
 
 ### Sources
 
@@ -78,6 +77,10 @@ Develop an Android app to search through **200,000+ cities** with optimized pref
 - Android Studio (latest stable version).
 - Device/emulator with API 21+.
 
+## Photos
+
+<img src="/Images/1.png" width=260 height=500  title=""> <img src="/Images/2.png" width=260 height=500 title="" > 
+<img src="/Images/3.png" width=260 height=500  title="">
 ### Steps
 1. Clone the repo:
    ```bash
