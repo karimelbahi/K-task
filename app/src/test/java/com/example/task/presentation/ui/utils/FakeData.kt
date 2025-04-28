@@ -1,4 +1,4 @@
-package com.example.task.presentation.ui
+package com.example.task.presentation.ui.utils
 
 import com.example.task.data.model.CitiesGroupModel
 import com.example.task.data.model.CityModel

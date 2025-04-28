@@ -11,7 +11,7 @@ fun List<CityEntity>.toGroupedCities(): List<CitiesGroupModel> {
         .toSortedGroups()
 }
 
-private fun List<CityEntity>.mapToCityModels(): List<CityModel> {
+fun List<CityEntity>.mapToCityModels(): List<CityModel> {
     return map { entity ->
         CityModel(
             country = entity.country,
@@ -23,13 +23,13 @@ private fun List<CityEntity>.mapToCityModels(): List<CityModel> {
     }
 }
 
-private fun List<CityModel>.groupByFirstLetter(): Map<Char, List<CityModel>> {
+fun List<CityModel>.groupByFirstLetter(): Map<Char, List<CityModel>> {
     return groupBy { city ->
         city.name?.firstOrNull()?.uppercaseChar() ?: '#'
     }
 }
 
-private fun Map<Char, List<CityModel>>.toSortedGroups(): List<CitiesGroupModel> {
+fun Map<Char, List<CityModel>>.toSortedGroups(): List<CitiesGroupModel> {
     return toSortedMap()
         .map { (letter, cities) ->
             CitiesGroupModel(

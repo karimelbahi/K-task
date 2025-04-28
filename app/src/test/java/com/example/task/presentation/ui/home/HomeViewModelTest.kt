@@ -2,9 +2,9 @@ package com.example.task.presentation.ui.home
 
 import app.cash.turbine.test
 import com.example.task.domain.usecases.HomeUseCases
-import com.example.task.presentation.ui.errorMessage
-import com.example.task.presentation.ui.mockCitiesGroup
-import com.example.task.presentation.ui.query
+import com.example.task.presentation.ui.utils.errorMessage
+import com.example.task.presentation.ui.utils.mockCitiesGroup
+import com.example.task.presentation.ui.utils.query
 import com.example.task.presentation.utils.DataState
 import com.google.common.truth.Truth.assertThat
 import io.mockk.clearAllMocks
