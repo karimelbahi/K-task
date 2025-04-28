@@ -1,4 +1,4 @@
-# Klivvr Task: City Search App
+# K Task: City Search App
 
 ##  Objective
 Develop an Android app to search through **200,000+ cities** with optimized prefix filtering, responsive UI, and seamless Google Maps integration.  
