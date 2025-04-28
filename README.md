@@ -45,7 +45,7 @@ Develop an Android app to search through **200,000+ cities** with optimized pref
 - **Debouncing**: Used `Flow` to handle rapid search input changes.
 
 ### Architecture
-- **MVVM**: Separation of concerns via `ViewModel` + `Composable` screens.
+- **MVI**: Separation of concerns via `ViewModel` + `Composable` screens.
 - **Repo Pattern**: Centralized data handling with `CityRepository`.
 
 ---
