@@ -71,7 +71,7 @@ Develop an Android app to search through **200,000+ cities** with optimized pref
 
 ---
 
-##  Installation & Usage[klivver-app.webm](https://github.com/user-attachments/assets/95bd38db-a2db-4869-9424-eef65a2c25ef)
+##  Installation & Usage
 
 
 ### Prerequisites
