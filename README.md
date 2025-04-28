@@ -79,6 +79,7 @@ Develop an Android app to search through **200,000+ cities** with optimized pref
 - Device/emulator with API 21+.
 
 ## Video
+[klivver-app.webm](https://github.com/user-attachments/assets/efb43cac-888c-4a78-af1a-14a9781cae24)
 
 ## Photos
 
@@ -87,4 +88,5 @@ Develop an Android app to search through **200,000+ cities** with optimized pref
 ### Steps
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/klivvr-city-search.git[klivver-app.webm](https://github.com/user-attachments/assets/1901247a-173d-416d-b08f-939226e06563)
+   
+git clone https://github.com/your-username/klivvr-city-search.git[klivver-app.webm](https://github.com/user-attachments/assets/1901247a-173d-416d-b08f-939226e06563)
