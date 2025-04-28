@@ -4,6 +4,7 @@ import android.app.Application
 import com.example.task.data.model.CitiesGroupModel
 import com.example.task.data.model.QuerySearchRequest
 import com.example.task.data.dataSource.CityDataSource
+import com.example.task.data.mapper.toGroupedCities
 import com.example.task.domain.repo.CitiesRepo
 import com.example.task.presentation.utils.DataState
 import kotlinx.coroutines.flow.Flow

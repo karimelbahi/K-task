@@ -56,7 +56,6 @@ dependencies {
     implementation(libs.androidx.material3)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
@@ -68,10 +67,6 @@ dependencies {
     ksp(libs.dagger.hiltCompiler)
     implementation(libs.dagger.hiltNavigation)
 
-    // Coroutines
-    implementation(libs.coroutines.android)
-    implementation(libs.coroutines.core)
-
     // Compose dependencies
     implementation(libs.androidx.navigationcompose)
     implementation(libs.androidx.foundation)
@@ -81,28 +76,8 @@ dependencies {
     implementation(libs.androidx.lifecycleruntimecompose)
     implementation(libs.androidx.material)
 
-    // Retrofit
+    // gson
     implementation(libs.gson)
-    implementation(libs.retrofit)
-    implementation(libs.retrofit.gson.converter)
-    implementation(libs.sqaure.logger)
-    implementation(libs.okhttp3)
-
-    // data store
-    implementation(libs.androidx.datastorepreferences)
-    implementation(libs.androidx.datastorepreferencescore)
-
-    // data store
-    implementation(libs.room.ktx)
-    ksp(libs.room.complier)
-    implementation(libs.room.paging)
-
-    // / chucker team
-    debugImplementation(libs.chuckerteam)
-    releaseImplementation(libs.chuckerteam.no.op)
-
-    // coil
-    implementation(libs.coil)
 
     // Local unit tests
     testImplementation(libs.mockito)
@@ -114,8 +89,6 @@ dependencies {
     testImplementation(libs.archCoreTesting)
     testImplementation(libs.truth)
     debugImplementation(libs.ui.test.manifest)
-    testImplementation(libs.mockwebserver)
-    testImplementation(libs.okhttp3)
     testImplementation(libs.mockk)
     testImplementation(libs.androidx.junit)
     testImplementation(libs.turbine)
