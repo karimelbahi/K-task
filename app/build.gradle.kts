@@ -74,7 +74,7 @@ dependencies {
     implementation(libs.kotlinx.serialization.json)
     implementation(libs.androidx.lifecycleviewmodelcompose)
     implementation(libs.androidx.lifecycleruntimecompose)
-    implementation(libs.androidx.material)
+//    implementation(libs.androidx.material)
 
     // gson
     implementation(libs.gson)
