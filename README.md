@@ -14,7 +14,7 @@ Develop an Android app to search through **200,000+ cities** with optimized pref
     - **Performance**: Better than linear time (e.g., Trie/O(1) lookups).
 - **Real-time Updates**: UI refreshes per keystroke.
 
-### 🖥 UI/UX
+### UI/UX
 - **City List**:
     - Grouped alphabetically (e.g., "Denver, US" before "Sydney, AU").
     - **Sticky Headers**: With connecting lines between letter groups.
