@@ -76,9 +76,9 @@ fun HomeScreenContent(
     ) {
         HeaderTitle()
         val citiesNum = if (stateValue.filteredCities.isNotEmpty()) {
-            stateValue.filteredCities.size
+            stateValue.filteredCities.sumOf { it.cities.size }
         } else {
-            stateValue.cities.size
+            stateValue.cities.sumOf { it.cities.size }
         }
 
         Text(
