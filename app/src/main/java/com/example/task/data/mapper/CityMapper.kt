@@ -1,4 +1,4 @@
-package com.example.task.data.repo
+package com.example.task.data.mapper
 
 import com.example.task.data.model.CitiesGroupModel
 import com.example.task.data.model.CityModel
